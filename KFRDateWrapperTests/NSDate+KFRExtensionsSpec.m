@@ -14,17 +14,6 @@
 
 SpecBegin(NSDate_KFRExtensions)
 
-/*
- + (NSDate *)kfr_noonToday;
- + (NSDate *)kfr_noonWithDaysOffset:(NSInteger)daysOffset;
- + (NSDate *)kfr_noonForDate:(NSDate *)date;
- + (NSDate *)kfr_startOfDayForDate:(NSDate *)date;
- + (NSDate *)kfr_endOfDayForDate:(NSDate *)date;
- + (BOOL)kfr_isToday:(NSDate *)date;
- + (BOOL)kfr_wasYesterday:(NSDate *)date;
- + (BOOL)kfr_isTomorrow:(NSDate *)date;
- */
-
 describe(@"NSDate+KFRExtensions", ^{
 
   __block NSDate *baseDate = nil;
